@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>愿长久，共婵娟——农泰中秋祝福 </title>
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme/black.css">
+
+  <!-- Theme used for syntax highlighting of code -->
+  <link rel="stylesheet" href="lib/css/monokai.css">
+
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+    document.getElementsByTagName('head')[0].appendChild(link);
+  </script>
+</head>
+
+<body>
+  <div class="reveal">
+    <audio id="music" type="audio/mpeg" src="./llj.mp3" autoplay preload loop="loop"></audio>
+    <div class="slides">
+      <section data-background-image="./img/1.jpg" data-background-size="contain" data-background-color="#fff">
+      </section>
+      <section data-background-image="./img/2.jpg" data-background-size="contain" data-background-color="#fff">
+      </section>
+      <section data-background-image="./img/3.jpg" data-background-size="contain" data-background-color="#fff">
+      </section>
+      <section data-background-image="./img/4.jpg" data-background-size="contain" data-background-color="#fff">
+      </section>
+      <!-- <section data-background-image="./img/5.jpg" data-background-size="contain" data-background-color="#fff">
+      </section> -->
+      <section data-background-image="./img/6.jpg" data-background-size="contain" data-background-color="#fff">
+      </section>
+    </div>
+  </div>
+
+  <script src="js/reveal.js"></script>
+
+  <script>
+    // Audio 自动播放
+    // function toggleSound() {
+    //   var music = document.getElementById("music");//获取ID  
+    //   console.log(music);
+    //   console.log(music.paused);
+    //   if (music.paused) { //判读是否播放  
+    //     music.paused = false;
+    //     music.play(); //没有就播放 
+    //   }
+
+    // }
+
+    // setInterval("toggleSound()", 1000);
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+      controls: false,
+      autoSlide: 7000,
+      dependencies: [
+        { src: 'plugin/markdown/marked.js' },
+        { src: 'plugin/markdown/markdown.js' },
+        { src: 'plugin/notes/notes.js', async: true },
+        { src: 'plugin/highlight/highlight.js', async: true }
+      ]
+    });
+  </script>
+</body>
+
+</html>
